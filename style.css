@@ -1,0 +1,79 @@
+body{
+  background-color: cornflowerblue;
+}
+.upbar{
+ background-image: url(background2.jpg);
+ background-size: cover;
+ background-attachment: fixed;
+ width: 100%;
+ height: 700px;
+
+}
+.headerset{
+    padding: 300px;
+    box-sizing: border-box;
+    margin-top: 300px;
+}
+.headerset h1{
+    font-size: 50px;
+    margin-top: -900px;
+    font-weight: bolder;
+    font-family: cursive;
+    transition: 0.7s ease;
+}
+.headerset h6{
+    font-size: 24px;
+    padding: 20px;
+    transition: 0.7s ease;
+}
+
+.headerset h1:hover{
+    font-size: 55px;
+
+  color: black;
+}
+.headerset h6:hover{
+  font-size: 30px;
+  color: blue;
+
+}
+/* @media only screen and (max-width:800px){
+    .headerset h1{
+         font-size: 40px;
+         font-weight: bold;
+         font-family: cursive;
+        transition: 0.7s ease;}
+} */
+.post{
+ color:black;
+ margin-top: -370px;
+ font-size: 56px;
+ margin-bottom: 30px;
+}  
+.navbar-nav li a{
+ transition: 0.7s ease;
+ margin: 18px;
+}
+  
+.navbar-nav li a:hover{
+background-color: black;
+ }
+
+ section{
+   padding: 20px;
+   margin: 20px;
+ }
+ .card-group{
+   margin: 25px;
+   transition: 0.7s ease;
+ }
+.card{
+   margin: 25px;
+   transition: 0.7s ease;
+ }
+.card:hover{
+ opacity: 0.3;
+}
+.card-img-top{
+  image-resolution: 10px;
+}
